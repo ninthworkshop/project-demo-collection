@@ -1,3 +1,10 @@
 *.bak
 *.swp
 .DS_Store
+# Arduino build files
+build/
+bin/
+
+# Local settings
+.vscode/
+.idea/
