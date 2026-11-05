@@ -65,6 +65,20 @@ Install the following library via the **Arduino IDE Library Manager**:
    - **Read Data**: Flash the `read_data.ino` code to read and verify Block 4.
 4. Open the **Serial Monitor** at a baud rate of **`115200`**.
 5. Bring your RFID card close to the reader.
+6. Output
+```
+
+========================================
+ ESP32-C3-Zero + RC522 卡片讀取測試
+========================================
+請將寫入過資料的 Mifare 卡片靠近感應區...
+
+[✔] 偵測到卡片 UID:  9B 0E CE 75
+[✔] Block 4 資料讀取成功!
+    ASCII 字串: ................
+    Hex 格式:   00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+----------------------------------------
+```
 
 ---
 
