@@ -2,6 +2,12 @@
 
 A quick-start Arduino project using an **ESP32-C3-Zero** board and an **MFRC522** module to read from and write data to MIFARE Classic 1K RFID cards/tags.
 
+<p align="center">
+  <img src="./assets/demo.jpg" width="600" alt="Project Demo Image">
+  <br>
+  <em>The assembled prototype with ESP32-S3 and Side-firing cavity speaker.</em>
+</p>
+
 ---
 
 ## ⚡ Features
@@ -21,6 +27,12 @@ A quick-start Arduino project using an **ESP32-C3-Zero** board and an **MFRC522*
 ---
 
 ## 🔌 Pin Connection Diagram
+
+<p align="center">
+  <img src="./assets/wiring.png" width="600" alt="Project Demo Image">
+  <br>
+  <em>The assembled prototype with ESP32-S3 and Side-firing cavity speaker.</em>
+</p>
 
 | MFRC522 Pin | ESP32-C3-Zero Pin | Function |
 | :--- | :--- | :--- |
