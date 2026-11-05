@@ -2,6 +2,11 @@
 
 A lightweight ESP32 Arduino project that uses the PN532 module via I2C to detect RFID/NFC cards, authenticate MIFARE Classic sectors, and read sector data (in both Hex and ASCII formats).
 
+<p align="center">
+  <img src="./assets/demo.jpg" width="600" alt="Project Demo Image">
+  <br>
+</p>
+
 ---
 
 ## ⚡ Features
@@ -33,6 +38,11 @@ A lightweight ESP32 Arduino project that uses the PN532 module via I2C to detect
 | **SDA** | `GPIO 21` | I2C Data line |
 | **SCL** | `GPIO 22` | I2C Clock line |
 
+<p align="center">
+  <img src="./assets/wiring.png" width="600" alt="Project Demo Image">
+  <br>
+</p>
+
 ---
 
 ## 📦 Required Libraries
@@ -51,6 +61,31 @@ Install the following library via Arduino IDE **Library Manager** (`Ctrl+Shift+I
 4. Set Baud Rate in Serial Monitor to `115200`.
 5. Upload the sketch.
 6. Bring a 4-byte UID MIFARE Classic card near the PN532 antenna.
+7. Output
+```
+=== ESP32 + PN532 MIFARE Data Reader ===
+成功偵測到晶片！韌體版本: PN532
+初始化完成，請將卡片靠近天線...
+
+-----------------------------------------
+>>> 發現卡片！
+UID: A1 BB 7E 12 
+區塊 4 密碼驗證成功！
+錯誤：讀取資料區塊失敗！
+-----------------------------------------
+
+-----------------------------------------
+>>> 發現卡片！
+UID: 9B 0E CE 75 
+錯誤：密碼驗證失敗！(可能該區塊已被更改密碼或非標準卡片)
+-----------------------------------------
+>>> 發現卡片！
+UID: 9B 0E CE 75 
+區塊 4 密碼驗證成功！
+Block 4 資料 (Hex): 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 
+Block 4 資料 (ASCII): ................
+-----------------------------------------
+```
 
 ---
 
