@@ -14,6 +14,7 @@ Please find the demo corresponding to your product or interest in the table belo
 | Project Name | Target Product / Hardware | Tech Stack | Link |
 | :--- | :--- | :--- | :--- |
 | **Internet Radio** | ESP32-S3 + MAX98357A | I2S, MP3 Stream, WiFi | [👉 View Demo](./internet-radio-streamer) |
+| **RC522 RFID Reader** | ESP32-C3 + RFID-RC522 | I2C, RFID | [👉 View Demo](./RFID-RC522-card-reader) |
 
 ---
 
